@@ -12,9 +12,9 @@ Dieser Satz von zwei Makros (und das dazugehörige Bash-Skript) soll Ihnen helfe
 
 Die Ergebnisse befinden sich im [ADXL-Ergebnisordner](./../../adxl_results/), der direkt im Stammverzeichnis des Konfigurationsordners platziert ist, um den Zugriff direkt von Ihrem Browser mit dem Dateimanager FLuidd/Maisail zu ermöglichen. Sie brauchen kein SSH mehr, um Ihren Input Shaper zu kalibrieren!
 
-| Gürtelresonanzen Beispiel | X-Resonanzen Beispiel | Y-Resonanzen Beispiel |
+| Riemenspannung Beispiel | X-Resonanzen Beispiel | Y-Resonanzen Beispiel |
 |:----------------------:|:----------------------:|:---------------------:|
-| ![Gürtelresonanzen Beispiel](./images/resonances_belts_example.png) | ![X-Resonanzen Beispiel](./images/resonances_x_example.png) | ![Y-Resonanzen Beispiel](./images/resonances_y_example.png) |
+| ![Riemenspannung Beispiel](./images/resonances_belts_example.png) | ![X-Resonanzen Beispiel](./images/resonances_x_example.png) | ![Y-Resonanzen Beispiel](./images/resonances_y_example.png) |
 
 ## Verwendung
 
