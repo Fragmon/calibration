@@ -1,4 +1,3 @@
-# Installation
 Ersteller: frix-x https://github.com/Frix-x
 Editiert und modifiziert: Fragmon https://github.com/Fragmon
 
@@ -22,7 +21,7 @@ Es ist darauf zu achten, dass die aktuellste Klipper Version installiert ist (Di
   7) (optional) Die Standardwerte können im jeweiligen Makro angepasst werden.
   
   
-  ## Funktionsweise
+  ## Features (genaue Funktionsweise ist im Ordner Features zu finden.
   FLOW_MULTIPLIER_CALIBRATION: Ermittelt den optimalen Extrusionsfaktor. Dieser kann im Slicer hinterlegt werden.
     COMPUTE_FLOW_MULTIPLIER: Wird genutzt, um den optimalen Extrusionsfaktor zu berechnen.
     
