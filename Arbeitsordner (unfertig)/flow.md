@@ -4,7 +4,7 @@
 
 Es gibt viele verschiedene Methoden, um den Durchfluss zu messen und zu kalibrieren, aber keine von ihnen ist wirklich konsistent: Meistens sind die Ergebnisse mehrdeutig und offen für Interpretationen und auch immer abhängig vom verwendeten Slicerprofil. Der Hauptgrund für dieses Kalibrierungsmakro ist es, eine filament- und slicerunabhängige Methode zur Kalibrierung des Fließextrusionsmultiplikators mit einfachen Messwerkzeugen zu finden. Das Ziel ist es, es einfach einzustellen, zu teilen und zu benutzen.
 
-![flow_calibration.png](./../images/flow_calibration.png)
+![flow_calibration.png](./images/flow_calibration.png)
 
 Dieses Makro ist parametrisch und die meisten Werte können mit ihren jeweiligen Eingabeparametern angepasst werden. Es arbeitet in zwei Phasen:
   1. Zunächst rufen Sie das Makro `FLOW_MULTIPLIER_CALIBRATION` auf, um eine hohle Schale mit einer bekannten Anzahl von Perimetern auf der Grundlage der [Slic3rPE flow math](https://manual.slic3r.org/advanced/flow-math) zu drucken. Das Makro druckt auch in der Fluidd/Mainsail-Konsole die theoretische Schalendicke, die Sie messen sollten.
@@ -25,7 +25,7 @@ Die Parameter, die beim Aufruf des Makros `FLOW_MULTIPLIER_CALIBRATION` zur Verf
 | Parameter | Standardwert | Beschreibung |
 |-----------:|---------------|-------------|
 |EXTRUDER_TEMP|245|         Drucktemperatur
-|BED_TEMP|1|                Druckbetttemperatur
+|BED_TEMP|110|                Druckbetttemperatur
 |DO_RAFT|1|                 druckt eine "Basis", um die Schale zu stützen (bessere Bett-Haftung und leichteres Entfernen am Ende)|
 |DO_RETRACT|0|              Rückzug aktivieren/deaktivieren. Standardmäßig deaktiviert, um einen konstanten Fluss zu gewährleisten, kann aber bei Problemen mit dem Druck aktiviert werden.
 |PRINT_SIZE|40|             Größe in mm, die für den Test auf dem Bett verwendet wird. Das Modell wird in der Mitte des Bettes gedruckt.
