@@ -4,9 +4,10 @@ Editiert und modifiziert: Fragmon https://github.com/Fragmon
 
 ## Beschreibung
 Dieser Satz Makros (und das dazugehörige Bash-Skript) soll helfen, die Kalibrierung innerhalb von Klipper zu konfigurieren. 
+Es ist darauf zu achten, dass die aktuellste Klipper Version installiert ist (Die Konfigurationsdateien müssen unter ~/printer_data/ nicht unter ~/klipper_config abgelegt sein). Ansonsten kann es zu Fehlern in den AXES und BELT Makro führen.
 
 ## Installation
-  1. Kopieren Sie die Makrodatei "calibrate_2.0.cfg" direkt in Ihre eigene Konfiguration.
+  1. Kopieren Sie die Makrodatei "calibrate_2.0.cfg" direkt in Ihre eigene Konfiguration und integriere sie in die printer.cfg.
   2. Stelle  sicher, dass die Klipper-Erweiterung `gcode_shell_command.py` installiert ist. Der einfachste Weg, sie zu installieren, ist, die erweiterte Sektion von KIAUH zu benutzen.
   3. Füge die `graph_vibrations.py` und `plot_graphs.sh` in das Wurzelverzeichnis deiner eigenen Konfiguration ein (d.h. in dein `~/printer_data/config/` Verzeichnis).
      Hinweis: Wenn Sie Windows für das Kopieren/Einfügen der Dateien verwenden, achten Sie auf die Zeilenenden für die Datei `plot_graphs.sh` und die Datei                    `graph_vibrations.py`
