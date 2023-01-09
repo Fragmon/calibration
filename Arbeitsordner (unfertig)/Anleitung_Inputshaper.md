@@ -1,4 +1,6 @@
-# Input Shaper Arbeitsablauf
+Ersteller und Autor: frix-x https://github.com/Frix-x
+
+Editiert und modifiziert: Fragmon https://github.com/Fragmon
 
 ## Beschreibung
 
