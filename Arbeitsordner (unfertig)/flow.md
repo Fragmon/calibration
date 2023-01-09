@@ -12,7 +12,7 @@ Dieses Makro ist parametrisch und die meisten Werte können mit ihren jeweiligen
 
 ## Verwendung
 
-Vergewissern Sie sich zunächst, dass Ihre Achsen ausgerichtet sind, Ihr Bettnetz geladen ist (falls Sie eines verwenden), sowohl das Hotend als auch das Bett die für Ihr Filament erforderliche Temperatur haben und die Maschine bereit ist, etwas zu drucken. Vergessen Sie nicht, QGL, Z-Tilt, Z-Offset richtig einzustellen, ... Im Grunde können Sie Ihren `PRINT_START` manuell aufrufen oder alle erforderlichen Schritte wiederholen.
+Vergewissern Sie sich zunächst, dass Ihre Achsen ausgerichtet sind und das Bedmesh  geladen ist (falls Sie eines verwenden), Vergessen Sie nicht, QGL, Z-Tilt, Z-Offset richtig einzustellen, ... Im Grunde können Sie Ihren `PRINT_START` manuell aufrufen oder alle erforderlichen Schritte wiederholen.
 
 Dann starten Sie den Druck, indem Sie in der Klipperkonsole (mit Mainsail/Fluidd/Octoprint) den folgenden Makroaufruf eingeben:
 
