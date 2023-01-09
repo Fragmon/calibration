@@ -20,7 +20,7 @@ Die Ergebnisse befinden sich im [ADXL-Ergebnisordner](./../../adxl_results/), de
 
 Stellen Sie sicher, dass Ihr Rechner gebootet ist und rufen Sie dann eines der folgenden Makros auf:
   - `BELTS_SHAPER_CALIBRATION` um die Bandresonanzkurven zu erhalten. Dies ist nützlich, um die Riemenspannung zu überprüfen, aber auch um festzustellen, ob die Riemenwege in Ordnung sind.
-  - AXES_SHAPER_CALIBRATION", um die Graphen der Standard-Eingangsformung zu erhalten und die Ringing/Ghosting-Artefakte in Ihren Ausdrucken zu unterdrücken.
+  - `AXES_SHAPER_CALIBRATION`, um die Graphen der Standard-Eingangsformung zu erhalten und die Ringing/Ghosting-Artefakte in Ihren Ausdrucken zu unterdrücken.
 
 Suchen Sie dann die Ergebnisse im Ergebnisordner. Sie können sie direkt in Ihrem Konfigurationsordner finden, indem Sie die WebUI von Mainsail/Fluidd verwenden.
 
