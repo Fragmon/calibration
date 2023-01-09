@@ -1,4 +1,5 @@
-Die Standardmethode zur Kalibrierung des PA ist ziemlich unklar, offen für Interpretationen mit einer großen Fehlertoleranz und benötigt jedes Mal eine große Menge an Filament. Dieses Makro bietet eine schnelle und einfache Möglichkeit, den Druckvorlauf zu kalibrieren, bei der Unterschiede auf den ersten Blick leichter zu erkennen sind.
+Ersteller und Autor: frix-x https://github.com/Frix-x
+Editiert und modifiziert: Fragmon https://github.com/Fragmon
 
 ## Beschreibung
 
