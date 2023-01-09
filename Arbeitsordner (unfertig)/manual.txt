@@ -5,6 +5,7 @@ Edited and modified: Fragmon https://github.com/Fragmon
 ## Description
 This set of macros (and associated bash script) is intended to help configure calibration within Klipper. 
 
+
 ## Installation
   1. copy the macro file "calibrate_2.0.cfg" directly into your own configuration.
   2. make sure that the Klipper extension 'gcode_shell_command.py' is installed. The easiest way to install it is to use the advanced section of KIAUH.
@@ -34,6 +35,3 @@ This set of macros (and associated bash script) is intended to help configure ca
   VIBRATIONS_CALIBRATION: Determines the vibrations depending on the speed. Should only be executed with activated input shaper.
   
   BELTS_SHAPER_CALIBRATION: Determines the tension of the belts. Only usable for CoreXY systems.
-  
-
-Translated with www.DeepL.com/Translator (free version)
