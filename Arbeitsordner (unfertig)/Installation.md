@@ -22,18 +22,19 @@ Es ist darauf zu achten, dass die aktuellste Klipper Version installiert ist (Di
   
   
   ## Features (genaue Funktionsweise ist in der jeweiligen .md Datei zu finden).
-  FLOW_MULTIPLIER_CALIBRATION: Ermittelt den optimalen Extrusionsfaktor. Dieser kann im Slicer hinterlegt werden.
-    COMPUTE_FLOW_MULTIPLIER: Wird genutzt, um den optimalen Extrusionsfaktor zu berechnen.
+  `FLOW_MULTIPLIER_CALIBRATION`: Ermittelt den optimalen Extrusionsfaktor. Dieser kann im Slicer hinterlegt werden.
+   
+  `COMPUTE_FLOW_MULTIPLIER`: Wird genutzt, um den optimalen Extrusionsfaktor zu berechnen.
     
-  PRESSURE_ADVANCE_CALIBRATION: Ermittelt den optimalen PA. Dieser kann im Slicer hinterlegt werden.
+  `PRESSURE_ADVANCE_CALIBRATION`: Ermittelt den optimalen PA. Dieser kann im Slicer hinterlegt werden.
   
-  MAX_FLOW_CALIBRATION: Ermittelt den maximalen Flow unter den eingestellten Settings.
+  `MAX_FLOW_CALIBRATION`: Ermittelt den maximalen Flow unter den eingestellten Settings.
   
-  AXES_SHAPER_CALIBRATION: Ermittelt die optimalen Inputshaper Werte. Diese können in der printer.cfg hinterlegt werden.
+  `AXES_SHAPER_CALIBRATION`: Ermittelt die optimalen Inputshaper Werte. Diese können in der printer.cfg hinterlegt werden.
   
-  VIBRATIONS_CALIBRATION: Ermittelt die Vibrationen in Abhängikeit von der Geschwindigkeit. Sollte nur mit aktiviertem Input-Shaper ausgeführt werden.
+  `VIBRATIONS_CALIBRATION`: Ermittelt die Vibrationen in Abhängikeit von der Geschwindigkeit. Sollte nur mit aktiviertem Input-Shaper ausgeführt werden.
   
-  BELTS_SHAPER_CALIBRATION: Ermittelt die Spannung der Riemen. Nur für CoreXY Systeme nutzbar.
+  `BELTS_SHAPER_CALIBRATION`: Ermittelt die Spannung der Riemen. Nur für CoreXY Systeme nutzbar.
   
   
   
