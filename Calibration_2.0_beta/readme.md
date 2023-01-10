@@ -18,7 +18,7 @@ Es ist darauf zu achten, dass die aktuellste Klipper Version installiert ist (Di
      ```
   5) (Optional) Man kann die ersten Zeilen des Skripts `plot_graphs.sh` ändern, um zu konfigurieren, wo Sie die Ergebnisse speichern wollen. 
   Voreinstellung: `~/printer_data/config/adxl_results`
-  6) Der Startcode muss an die eigenen Variablen angepasst werden.
+  6) Das Macro _CALIBRATE_START verweist auf das eigene START_PRINT Makro. Das muss zwingend angepasst werden. In diesem Zusammenhang ist das M112 auszukommentieren.
   7) (optional) Die Standardwerte können im jeweiligen Makro angepasst werden.
   
   
