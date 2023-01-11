@@ -9,7 +9,7 @@ Es ist darauf zu achten, dass die aktuellste Klipper Version installiert ist (Di
 ## Installation
   1. Kopieren Sie die Makrodatei "calibrate_2.0.cfg" direkt in Ihre eigene Konfiguration und integriere sie in die printer.cfg.
   2. Stelle  sicher, dass die Klipper-Erweiterung `gcode_shell_command.py` installiert ist. Der einfachste Weg, sie zu installieren, ist, die erweiterte Sektion von KIAUH zu benutzen.
-  3. Füge die `graph_vibrations.py` und `plot_graphs.sh` in das Wurzelverzeichnis deiner eigenen Konfiguration ein (d.h. in dein `~/printer_data/config/` Verzeichnis).
+  3. Füge den Ordner Scripts mit den Dateien `graph_vibrations.py` und `plot_graphs.sh` in das Wurzelverzeichnis deiner eigenen Konfiguration ein (d.h. in dein `~/printer_data/config/` Verzeichnis).
      Hinweis: Wenn Sie Windows für das Kopieren/Einfügen der Dateien verwenden, achten Sie auf die Zeilenenden für die Datei `plot_graphs.sh` und die Datei                    `graph_vibrations.py`
   4. Mache die Skripte mit SSH ausführbar. Wenn du dich im Ordner befindest, verwende:
      ```
