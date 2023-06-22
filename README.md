@@ -1,4 +1,3 @@
-# calibration
-CAUTION:
+New path of the macros:
+https://github.com/cryd-s/klipper_scripts/tree/main/calibration_2.0
 
-Not tested on DELTA Printer. I can produce errors because the 0,0 Point is in the middle of the bed not in the corner.
